@@ -5,3 +5,5 @@ flask
 python-dotenv
 matplotlib
 pymongo
+
+#-e .
