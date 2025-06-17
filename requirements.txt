@@ -4,6 +4,7 @@ pandas
 flask
 python-dotenv
 matplotlib
+pymongo[srv]
 pymongo
-
+certifi
 #-e .
