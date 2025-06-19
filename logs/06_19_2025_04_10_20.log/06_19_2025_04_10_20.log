@@ -1,0 +1,16 @@
+[2025-06-19 04:10:20,875]  12 root - INFO - Initiating Data Ingestion
+[2025-06-19 04:10:22,096]  45 root - INFO - Fetched 11055 records from MongoDB collection 'NetworkData' in database 'Mongdb'
+[2025-06-19 04:10:22,134]  61 root - INFO - Exported data into feature store at: Artifaces\06_19_2025_04_10_20\data_ingestion\feature_store\phisingData.csv
+[2025-06-19 04:10:22,136]  74 root - INFO - Performed train-test split with test size = 0.2
+[2025-06-19 04:10:22,172]  84 root - INFO - Training data saved at: Artifaces\06_19_2025_04_10_20\data_ingestion\ingested\train.csv
+[2025-06-19 04:10:22,172]  85 root - INFO - Testing data saved at: Artifaces\06_19_2025_04_10_20\data_ingestion\ingested\test.csv
+[2025-06-19 04:10:22,173]  110 root - INFO - Data ingestion completed successfully.
+[2025-06-19 04:10:22,173]  14 root - INFO - data initiation completed
+[2025-06-19 04:10:22,176]  17 root - INFO - Initiate Data Validation
+[2025-06-19 04:10:22,225]  29 root - INFO - Required number of columns:2
+[2025-06-19 04:10:22,225]  30 root - INFO - Data frame has columns:31
+[2025-06-19 04:10:22,225]  29 root - INFO - Required number of columns:2
+[2025-06-19 04:10:22,225]  30 root - INFO - Data frame has columns:31
+[2025-06-19 04:10:22,225]  40 root - INFO - Numerical column names:['having_IP_Address', 'URL_Length', 'Shortining_Service', 'having_At_Symbol', 'double_slash_redirecting', 'Prefix_Suffix', 'having_Sub_Domain', 'SSLfinal_State', 'Domain_registeration_length', 'Favicon', 'port', 'HTTPS_token', 'Request_URL', 'URL_of_Anchor', 'Links_in_tags', 'SFH', 'Submitting_to_email', 'Abnormal_URL', 'Redirect', 'on_mouseover', 'RightClick', 'popUpWidnow', 'Iframe', 'age_of_domain', 'DNSRecord', 'web_traffic', 'Page_Rank', 'Google_Index', 'Links_pointing_to_page', 'Statistical_report', 'Result']
+[2025-06-19 04:10:22,225]  40 root - INFO - Numerical column names:['having_IP_Address', 'URL_Length', 'Shortining_Service', 'having_At_Symbol', 'double_slash_redirecting', 'Prefix_Suffix', 'having_Sub_Domain', 'SSLfinal_State', 'Domain_registeration_length', 'Favicon', 'port', 'HTTPS_token', 'Request_URL', 'URL_of_Anchor', 'Links_in_tags', 'SFH', 'Submitting_to_email', 'Abnormal_URL', 'Redirect', 'on_mouseover', 'RightClick', 'popUpWidnow', 'Iframe', 'age_of_domain', 'DNSRecord', 'web_traffic', 'Page_Rank', 'Google_Index', 'Links_pointing_to_page', 'Statistical_report', 'Result']
+[2025-06-19 04:10:22,337]  20 root - INFO - Data validation complete
