@@ -1,0 +1,31 @@
+[2025-06-21 14:31:31,333]  160 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[2025-06-21 14:31:43,951]  34 root - INFO - Start Data Ingestion
+[2025-06-21 14:31:45,169]  45 root - INFO - Fetched 11055 records from MongoDB collection 'NetworkData' in database 'Mongdb'
+[2025-06-21 14:31:45,216]  61 root - INFO - Exported data into feature store at: Artifaces\06_21_2025_14_31_33\data_ingestion\feature_store\phisingData.csv
+[2025-06-21 14:31:45,221]  74 root - INFO - Performed train-test split with test size = 0.2
+[2025-06-21 14:31:45,261]  84 root - INFO - Training data saved at: Artifaces\06_21_2025_14_31_33\data_ingestion\ingested\train.csv
+[2025-06-21 14:31:45,261]  85 root - INFO - Testing data saved at: Artifaces\06_21_2025_14_31_33\data_ingestion\ingested\test.csv
+[2025-06-21 14:31:45,261]  110 root - INFO - Data ingestion completed successfully.
+[2025-06-21 14:31:45,261]  37 root - INFO - Data Ingestion completed
+[2025-06-21 14:31:45,266]  48 root - INFO - Start Data Validation
+[2025-06-21 14:31:45,318]  29 root - INFO - Required number of columns:2
+[2025-06-21 14:31:45,318]  30 root - INFO - Data frame has columns:31
+[2025-06-21 14:31:45,318]  29 root - INFO - Required number of columns:2
+[2025-06-21 14:31:45,318]  30 root - INFO - Data frame has columns:31
+[2025-06-21 14:31:45,318]  40 root - INFO - Numerical column names:['having_IP_Address', 'URL_Length', 'Shortining_Service', 'having_At_Symbol', 'double_slash_redirecting', 'Prefix_Suffix', 'having_Sub_Domain', 'SSLfinal_State', 'Domain_registeration_length', 'Favicon', 'port', 'HTTPS_token', 'Request_URL', 'URL_of_Anchor', 'Links_in_tags', 'SFH', 'Submitting_to_email', 'Abnormal_URL', 'Redirect', 'on_mouseover', 'RightClick', 'popUpWidnow', 'Iframe', 'age_of_domain', 'DNSRecord', 'web_traffic', 'Page_Rank', 'Google_Index', 'Links_pointing_to_page', 'Statistical_report', 'Result']
+[2025-06-21 14:31:45,318]  40 root - INFO - Numerical column names:['having_IP_Address', 'URL_Length', 'Shortining_Service', 'having_At_Symbol', 'double_slash_redirecting', 'Prefix_Suffix', 'having_Sub_Domain', 'SSLfinal_State', 'Domain_registeration_length', 'Favicon', 'port', 'HTTPS_token', 'Request_URL', 'URL_of_Anchor', 'Links_in_tags', 'SFH', 'Submitting_to_email', 'Abnormal_URL', 'Redirect', 'on_mouseover', 'RightClick', 'popUpWidnow', 'Iframe', 'age_of_domain', 'DNSRecord', 'web_traffic', 'Page_Rank', 'Google_Index', 'Links_pointing_to_page', 'Statistical_report', 'Result']
+[2025-06-21 14:31:45,435]  51 root - INFO - Initiating data transformation
+[2025-06-21 14:31:45,452]  42 root - INFO - Creating data transformer pipeline with KNN Imputer
+[2025-06-21 14:31:45,461]  42 root - INFO - Entered the save_object method
+[2025-06-21 14:31:45,463]  46 root - INFO - Exited the save_object method
+[2025-06-21 14:31:45,463]  42 root - INFO - Entered the save_object method
+[2025-06-21 14:31:45,464]  46 root - INFO - Exited the save_object method
+[2025-06-21 14:31:45,464]  101 root - INFO - Data transformation completed successfully
+[2025-06-21 14:31:45,465]  63 root - INFO - Data Transformation completed
+[2025-06-21 15:43:18,544]  42 root - INFO - Entered the save_object method
+[2025-06-21 15:43:18,545]  46 root - INFO - Exited the save_object method
+[2025-06-21 15:43:18,545]  42 root - INFO - Entered the save_object method
+[2025-06-21 15:43:18,556]  46 root - INFO - Exited the save_object method
+[2025-06-21 15:43:18,556]  123 root - INFO - Model Trainer artifact:ModelTrainerArtifact(trained_model_file_path='Artifaces\\06_21_2025_14_31_33\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=0.9902814334885605, precision_score=0.9860887096774194, recall_score=0.994509963399756), test_metric_artifact=ClassificationMetricArtifact(f1_score=0.9802816901408451, precision_score=0.9775280898876404, recall_score=0.9830508474576272))
+[2025-06-21 15:43:18,559]  76 root - INFO - Model Trainer completed
+[2025-06-21 15:43:18,559]  87 root - INFO - Training Pipeline completed

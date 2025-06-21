@@ -89,6 +89,8 @@ class DataTransformation:
                 transformer
             )
 
+            save_object("final_model/preprocessing.pkl",transformer)
+
             # Prepare artifact to return (positional args to match constructor signature)
             data_transformation_artifact = DataTransformationArtifact(
                 self.data_transformation_config.transformed_train_file_path,

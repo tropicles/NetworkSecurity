@@ -1,8 +1,0 @@
-[2025-06-19 04:04:54,220]  12 root - INFO - Initiating Data Ingestion
-[2025-06-19 04:04:55,500]  45 root - INFO - Fetched 11055 records from MongoDB collection 'NetworkData' in database 'Mongdb'
-[2025-06-19 04:04:55,540]  61 root - INFO - Exported data into feature store at: Artifaces\06_19_2025_04_04_54\data_ingestion\feature_store\phisingData.csv
-[2025-06-19 04:04:55,542]  74 root - INFO - Performed train-test split with test size = 0.2
-[2025-06-19 04:04:55,586]  84 root - INFO - Training data saved at: Artifaces\06_19_2025_04_04_54\data_ingestion\ingested\train.csv
-[2025-06-19 04:04:55,586]  85 root - INFO - Testing data saved at: Artifaces\06_19_2025_04_04_54\data_ingestion\ingested\test.csv
-[2025-06-19 04:04:55,586]  110 root - INFO - Data ingestion completed successfully.
-[2025-06-19 04:04:55,587]  14 root - INFO - data initiation completed
